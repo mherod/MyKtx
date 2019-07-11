@@ -6,3 +6,7 @@ repos:
       - id: check-merge-conflict
       - id: check-xml
       - id: check-yaml
+  - repo: https://github.com/mherod/ktlint-pre-commit
+    sha: c0b874334814f98fe2637f4cbf3afe72f56ca264
+    hooks:
+      - id: ktlint
